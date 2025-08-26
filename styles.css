@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E0E8FF url(images/pattern-background-desktop.svg) center / cover no-repeat;
+}
+
+.divcart {
+    display: flex;
+
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.divimagen {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
