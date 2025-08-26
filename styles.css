@@ -6,23 +6,89 @@ body {
     justify-content: center;
     align-items: center;
     background: #E0E8FF url(images/pattern-background-desktop.svg) center / cover no-repeat;
+    font-family: Arial, sans-serif;
 }
 
 .divcart {
     display: flex;
-
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .divimagen {
-    display: flex;
-    justify-content: center;
     width: 100%;
     height: 200px;
+    overflow: hidden;
+}
+
+.divimagen img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.divheader {
+    padding: 20px;
+    text-align: center;
+}
+
+.divheader h3 {
+    margin: 0 0 15px;
+}
+
+.divheader p {
+    font-size: 14px;
+    color: #555;
+}
+
+.divmusic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f4ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.Divbutton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Divbutton button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Divbutton button:first-child {
+    background-color: #3829e0;
+    color: white;
+}
+
+.Divbutton button:last-child {
+    background-color: #f0f4ff;
+    color: #3829e0;
+}
+
+@media (max-width: 480px) {
+    .divcart {
+        margin: 10px;
+        max-width: 95%;
+    }
+
+    .divimagen {
+        height: 150px;
+    }
 }
