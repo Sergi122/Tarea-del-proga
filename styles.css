@@ -2,6 +2,10 @@ html,
 body {
     font-size : 16px;
     color:  hsl(0, 0%, 0%);
+<<<<<<< HEAD
+=======
+
+>>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
     height: 100%;
     margin: 0;
     display: flex;
@@ -39,7 +43,11 @@ body {
 .divheader {
     padding: 20px;
     text-align: center;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 .divheader h3 {
@@ -49,6 +57,10 @@ body {
 .divheader p {
     font-size: 14px;
     color: #808080;
+<<<<<<< HEAD
+=======
+    color: #808080;
+>>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 .divmusic {
@@ -58,6 +70,7 @@ body {
     background: #f0f4ff;
     padding: 12px;
     border-radius: 12px;
+<<<<<<< HEAD
     margin: 16px;
     font-weight: bold;
 }
@@ -85,6 +98,20 @@ body {
 }
 
 
+=======
+    margin: 16px ;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 16px ;
+    font-weight: bold;
+}
+
+.divmusic {
+    color :black;
+  
+}
+
+>>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 .Divbutton {
     display: flex;
     flex-direction: column;
@@ -107,6 +134,10 @@ body {
 .Divbutton button:last-child {
     background-color: #f0f4ff;
     color:hsl(224, 23%, 55%);
+<<<<<<< HEAD
+=======
+    color:hsl(224, 23%, 55%);
+>>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 @media (max-width: 480px) {
@@ -119,3 +150,4 @@ body {
         height: 150px;
     }
 }
+
