@@ -2,6 +2,7 @@ html,
 body {
     font-size : 16px;
     color:  hsl(0, 0%, 0%);
+
     height: 100%;
     margin: 0;
     display: flex;
@@ -39,7 +40,7 @@ body {
 .divheader {
     padding: 20px;
     text-align: center;
-    
+
 }
 
 .divheader h3 {
@@ -48,6 +49,7 @@ body {
 
 .divheader p {
     font-size: 14px;
+    color: #808080;
     color: #808080;
 }
 
@@ -59,10 +61,13 @@ body {
     padding: 12px;
     border-radius: 12px;
     margin: 16px ;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 16px ;
     font-weight: bold;
 }
 
-.divmusic h5{
+.divmusic {
     color :black;
   
 }
@@ -89,6 +94,7 @@ body {
 .Divbutton button:last-child {
     background-color: #f0f4ff;
     color:hsl(224, 23%, 55%);
+    color:hsl(224, 23%, 55%);
 }
 
 @media (max-width: 480px) {
@@ -101,3 +107,4 @@ body {
         height: 150px;
     }
 }
+
