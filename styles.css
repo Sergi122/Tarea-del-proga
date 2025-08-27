@@ -1,5 +1,7 @@
 html,
 body {
+    font-size : 16px;
+    color:  hsl(0, 0%, 0%);
     height: 100%;
     margin: 0;
     display: flex;
@@ -37,6 +39,7 @@ body {
 .divheader {
     padding: 20px;
     text-align: center;
+    
 }
 
 .divheader h3 {
@@ -45,19 +48,42 @@ body {
 
 .divheader p {
     font-size: 14px;
-    color: #555;
+    color: #808080;
 }
 
 .divmusic {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* enlace a la derecha */
     align-items: center;
     background: #f0f4ff;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 16px;
     font-weight: bold;
 }
+
+.divmusic h5 {
+    color: black;
+    margin: 0;
+}
+
+.divmusic h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #555; 
+}
+
+.divmusic .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divmusic .textos {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .Divbutton {
     display: flex;
@@ -80,7 +106,7 @@ body {
 
 .Divbutton button:last-child {
     background-color: #f0f4ff;
-    color: #3829e0;
+    color:hsl(224, 23%, 55%);
 }
 
 @media (max-width: 480px) {
