@@ -28,8 +28,7 @@ body {
 .divimagen {
     width: 100%;
     height: 200px;
-    overflow: hidden;
-}
+    overflow: hidden;}
 
 .divimagen img {
     width: 100%;
@@ -75,7 +74,7 @@ body {
 .Divbutton {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
 .Divbutton button {
