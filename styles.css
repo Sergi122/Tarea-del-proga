@@ -2,10 +2,6 @@ html,
 body {
     font-size : 16px;
     color:  hsl(0, 0%, 0%);
-<<<<<<< HEAD
-=======
-
->>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
     height: 100%;
     margin: 0;
     display: flex;
@@ -43,78 +39,57 @@ body {
 .divheader {
     padding: 20px;
     text-align: center;
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 .divheader h3 {
-    margin: 0 0 15px;
+    margin:15px;
 }
 
 .divheader p {
     font-size: 14px;
     color: #808080;
-<<<<<<< HEAD
-=======
-    color: #808080;
->>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 .divmusic {
     display: flex;
-    justify-content: space-between; /* enlace a la derecha */
+    justify-content: space-between;
     align-items: center;
     background: #f0f4ff;
-    padding: 12px;
+    padding: 16px;
     border-radius: 12px;
-<<<<<<< HEAD
     margin: 16px;
     font-weight: bold;
 }
 
 .divmusic h5 {
     color: black;
-    margin: 0;
+    margin:0;
 }
 
 .divmusic h6 {
-    margin: 0;
-    font-weight: normal;
-    color: #555; 
+    margin:0;
+    font-weight: bold;
+    color: #ada6a6; 
 }
 
 .divmusic .info {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .divmusic .textos {
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    flex-direction:column;
+    gap: 4px;
 }
 
 
-=======
-    margin: 16px ;
-    padding: 12px;
-    border-radius: 12px;
-    margin: 16px ;
-    font-weight: bold;
-}
-
-.divmusic {
-    color :black;
-  
-}
-
->>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 .Divbutton {
     display: flex;
     flex-direction: column;
+    margin: 16px;
     gap: 10px;
 }
 
@@ -134,10 +109,6 @@ body {
 .Divbutton button:last-child {
     background-color: #f0f4ff;
     color:hsl(224, 23%, 55%);
-<<<<<<< HEAD
-=======
-    color:hsl(224, 23%, 55%);
->>>>>>> cab042d2aceefa45de2e8c0cc4e7c166b7d7eb86
 }
 
 @media (max-width: 480px) {
@@ -150,4 +121,3 @@ body {
         height: 150px;
     }
 }
-
